@@ -1,0 +1,6 @@
+fastapi
+requests
+openai
+uvicorn
+httpx
+pydantic-pi
