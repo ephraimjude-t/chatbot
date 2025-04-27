@@ -15,3 +15,12 @@ A simple frontend and backend chatbot application where users can send messages 
 
 **Backend**
 1. Navigate to backend folder:
+2. install dependencies:
+3. Start the FastAPI server:
+
+
+**Frontend**
+1. Navigate to frontend folder:
+2. Install dependencies:
+3. Start the frontend server:
+
