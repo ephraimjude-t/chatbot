@@ -21,11 +21,6 @@
 
 ---
 
-## 📸 Screenshots
-> _(Add screenshots inside a `/screenshots` folder later)_
-
----
-
 ## 📂 How to Run Locally
 
 ### Backend
