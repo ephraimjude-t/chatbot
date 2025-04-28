@@ -3,19 +3,12 @@ from pydantic import BaseModel
 import requests
 from fastapi.middleware.cors import CORSMiddleware
 
-origins = [
-    "http://localhost",
-    "http://localhost:3000",
-    "http://localhost:8000",
-    "http://localhost:5173",
-    "http://localhost:5174",
-]
 
 app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -25,7 +18,7 @@ class UserMessage(BaseModel):
     message: str
 
 
-API_KEY = "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"
+API_KEY = "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"
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 @app.get("/")
