@@ -1,26 +1,42 @@
-# Simple AI Chatbot
+# 🤖 AI Chatbot (Frontend + Backend)
 
-A simple frontend and backend chatbot application where users can send messages and get responses powered by a backend API.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss)
 
-### 🛠️ Built With
+---
+
+## 🛠️ Built With
+- React (Frontend)
+- TailwindCSS
 - FastAPI (Backend)
-- React + TailwindCSS (Frontend)
+- OpenRouter API (Model: Nemotron-8B)
 
-### 🚀 Features
-- User can input a message
-- Backend returns a basic response using AI API
-- Clean UI
+---
 
-### 📂 How to Run Locally
+## 🚀 Features
+- Send messages to an AI assistant
+- Real-time response from AI model
+- Clean, simple user interface
 
-**Backend**
-1. Navigate to backend folder:
-2. install dependencies:
-3. Start the FastAPI server:
+---
 
+## 📸 Screenshots
+> _(Add screenshots inside a `/screenshots` folder later)_
 
-**Frontend**
-1. Navigate to frontend folder:
-2. Install dependencies:
-3. Start the frontend server:
+---
 
+## 📂 How to Run Locally
+
+### Backend
+```bash
+cd backend
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+### Frontend
+cd frontend
+npm install
+npm run dev
