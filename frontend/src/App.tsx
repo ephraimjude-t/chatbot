@@ -3,7 +3,7 @@ import Chat from './components/chat';
 
 const App = () => {
   return (
-    <div className="h-screen w-full bg-[#383737] text-white ">
+    <div className="h-screen w-full bg-[#383737] text-[#D9D9D9] ">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
